@@ -35,6 +35,7 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Clipboard: `xsel`, `xclip`, `xorg-clipboard`
 - Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
 - Vimtex: `zathura`, `texlive-most`, `latex-mk`
+- Remote support: `neovim-remote` (AUR)
 
 ### Picom
 
