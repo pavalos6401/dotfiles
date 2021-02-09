@@ -2,3 +2,4 @@
 
 picom &
 redshift-gtk &
+nm-applet &

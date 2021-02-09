@@ -4,7 +4,7 @@
 
 ### Bash
 
-- Editor: `vim`
+- Editor: `vim`, `nvim`, `emacs`
 - Optional: `bash-completion` 
 
 ### Bpytop
@@ -36,6 +36,7 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
 - Vimtex: `zathura`, `texlive-most`, `latex-mk`
 - Remote support: `neovim-remote` (AUR)
+- Python linting: `python-pylint`, `autopep8`, `jedi-language-server`
 
 ### Openbox
 
@@ -58,6 +59,7 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Compositor: `picom`
 - Volume control: `pamixer`
 - Screen information: `python-xlib`
+- Network applet: `network-manager-applet`
 
 ### Ranger
 

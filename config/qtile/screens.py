@@ -13,8 +13,8 @@ extesnion_defaults = widget_defaults.copy()
 # Widgets for main screen/monitor
 bar_widgets = [
     widget.Spacer(
-    **color_scheme,
-    length=6,
+        **color_scheme,
+        length=6,
     ),
     widget.CurrentLayoutIcon(
         **color_scheme,
@@ -31,6 +31,10 @@ bar_widgets = [
         **color_scheme,
     ),
     widget.Systray(
+        **widget_defaults,
+        **color_scheme,
+    ),
+    widget.PulseVolume(
         **widget_defaults,
         **color_scheme,
     ),
@@ -144,4 +148,3 @@ if get_num_monitors() > 1:
             ),
         )
     )
-
