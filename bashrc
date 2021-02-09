@@ -44,6 +44,7 @@ alias pacrm="sudo pacman -Rs"                  # Remove a package
 alias paccl="sudo pacman -Rns $(pacman -Qtdq)" # Remove orphans
 # Shenanigans
 alias tuxsay="cowsay -f tux"
+alias nfetch="neofetch"
 
 # Other
 PS1='[\u@\h \W]\$ '
