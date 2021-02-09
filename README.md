@@ -2,6 +2,9 @@
 
 ## Requirements
 
+All required packages are Arch Linux packages, they might be named differentlly
+in other distributions.
+
 ### Bash
 
 - Editor: `vim`, `nvim`, `emacs`
@@ -35,17 +38,19 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Nodejs client: `nodejs-neovim` (AUR)
 - Clipboard: `xsel`, `xclip`, `xorg-clipboard`
 - Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
-- Vimtex: `zathura` (also `zathura-pdf-mupdf`), `texlive-most`
+- VimTeX: `zathura` (also `zathura-pdf-mupdf`), `texlive-most`
 - Remote support: `neovim-remote` (AUR)
 - Python linting: `python-pylint`, `autopep8`, `jedi-language-server`
 
-### Openbox
+### Openbox and Tint2
 
-`openbox`
+`openbox`, `tint2`
 
 - Background: `feh`
 - Fonts: `ttf-dejavu`, `ttf-liberation`
 - Menu: `obmenu-generator` (AUR)
+- Terminal: `kitty`
+- Compositor: `picom`
 
 ### Picom
 
@@ -59,11 +64,10 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Screenshots: `maim`, `xclip`
 - Browser: `firefox`
 - Terminal: `kitty`
-- Blue light filter: `redshift`
 - Compositor: `picom`
 - Volume control: `pamixer`
 - Screen information: `python-xlib`
-- Network applet: `network-manager-applet`
+- Applets: `network-manager-applet`, `pasystray`, `redshift`
 
 ### Ranger
 
