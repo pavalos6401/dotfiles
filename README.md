@@ -29,9 +29,10 @@ Fonts: `nerd-fonts-complete` (AUR)
 
 `neovim`
 
-- Python:
-- Ruby:
-- Nodejs:
+- Python client: `python-pynvim`
+- Ruby bindings: `ruby-neovim` (AUR)
+- Nodejs client: `nodejs-neovim` (AUR)
+- Clipboard: `xsel`, `xclip`, `xorg-clipboard`
 - Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
 - Vimtex: `zathura`, `texlive-most`, `latex-mk`
 
