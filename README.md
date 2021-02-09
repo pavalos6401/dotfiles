@@ -37,6 +37,12 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Vimtex: `zathura`, `texlive-most`, `latex-mk`
 - Remote support: `neovim-remote` (AUR)
 
+### Openbox
+
+`openbox`
+
+- Background: `feh`
+
 ### Picom
 
 `picom`
@@ -48,7 +54,7 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Screenshots: `maim`, `xclip`
 - Browser: `firefox`
 - Terminal: `kitty`
-- Blue light: `redshift`
+- Blue light filter: `redshift`
 - Compositor: `picom`
 - Volume control: `pamixer`
 - Screen information: `python-xlib`
@@ -56,6 +62,8 @@ Fonts: `nerd-fonts-complete` (AUR)
 ### Ranger
 
 `ranger`
+
+- Image preview: `kitty`, `python-pillow`
 
 ### Redshift
 

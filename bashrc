@@ -24,14 +24,24 @@ then PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 fi
 
 # Aliases
+# directory-related aliases
 alias ls="ls --color=auto"
 alias l="ls --color=auto -al"
 alias ll="ls --color=auto -l"
 alias ..="cd .."
 alias ...="cd ../.."
+# grep-related aliases
 alias grep="grep --color=auto"
 alias egrep="egrep --color=auto"
 alias fgrep="fgrep --color=auto"
+# pacman-related aliases
+alias pacref="sudo pacman -Syy"                # Refresh repos
+alias pacup="sudo pacman -Syu"                 # Update
+alias pacse="sudo pacman -Ss"                  # Search in repos
+alias pacif="sudo pacman -Si"                  # Get info on repo package
+alias pacin="sudo pacman -S --needed"          # Install from repos
+alias pacrm="sudo pacman -Rs"                  # Remove a package
+alias paccl="sudo pacman -Rns $(pacman -Qtdq)" # Remove orphans
 
 # Other
 PS1='[\u@\h \W]\$ '
