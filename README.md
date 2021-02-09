@@ -43,6 +43,8 @@ Fonts: `nerd-fonts-complete` (AUR)
 `openbox`
 
 - Background: `feh`
+- Fonts: `ttf-dejavu`, `ttf-liberation`
+- Menu: `menumaker`
 
 ### Picom
 
@@ -52,6 +54,7 @@ Fonts: `nerd-fonts-complete` (AUR)
 
 `qtile`
 
+- Fonts: `adobe-source-code-pro-fonts`, `nerd-fonts-complete` (AUR)
 - Screenshots: `maim`, `xclip`
 - Browser: `firefox`
 - Terminal: `kitty`
