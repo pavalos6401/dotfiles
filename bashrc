@@ -23,6 +23,10 @@ if [ -d "$HOME/.gem/ruby/2.7.0/bin" ] ;
 then PATH="$HOME/.gem/ruby/2.7.0/bin:$PATH"
 fi
 
+if [ -d "$HOME/.emacs.d/bin" ] ;
+then PATH="$HOME/.emacs.d/bin:$PATH"
+fi
+
 # Aliases
 # directory-related aliases
 alias ls="ls --color=auto"

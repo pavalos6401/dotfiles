@@ -15,6 +15,12 @@ in other distributions.
 
 `bpytop`
 
+## Doom Emacs
+
+[Doom Emacs](https://github.com/hlissner/doom-emacs)
+
+- `ripgrep`, `fd`
+
 ### GTK
 
 `gtk3` (optionally `gtk2` too)
