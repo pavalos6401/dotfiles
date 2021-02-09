@@ -5,6 +5,7 @@
 ### Bash
 
 - Editor: `vim`, `nvim`, `emacs`
+- Shenanigans: `cowsay`, `fortune-mod`
 - Optional: `bash-completion` 
 
 ### Bpytop
