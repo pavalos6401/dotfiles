@@ -1,0 +1,39 @@
+#define nord0 #2E3440
+#define nord1 #2E3440
+#define nord2 #2E3440
+#define nord3 #2E3440
+#define nord4 #2E3440
+#define nord5 #2E3440
+#define nord6 #2E3440
+#define nord7 #2E3440
+#define nord8 #2E3440
+#define nord9 #2E3440
+#define nord10 #2E3440
+#define nord11 #2E3440
+#define nord12 #2E3440
+#define nord13 #2E3440
+#define nord14 #2E3440
+#define nord15 #2E3440
+
+*.foreground: nord4
+*.background: nord0
+*.cursorColor: nord4
+*fading: 35
+*fadeColor: nord3
+
+*.color0: nord1
+*.color1: nord11
+*.color2: nord14
+*.color3: nord13
+*.color4: nord9
+*.color5: nord15
+*.color6: nord8
+*.color7: nord5
+*.color8: nord3
+*.color9: nord11
+*.color10: nord14
+*.color11: nord13
+*.color12: nord9
+*.color13: nord15
+*.color14: nord7
+*.color15: nord6
