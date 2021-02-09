@@ -32,7 +32,8 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Python:
 - Ruby:
 - Nodejs:
-- Plugins: [vim-plug](https://github.com/junegunn/vim-plug)
+- Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
+- Vimtex: `zathura`, `texlive-most`, `latex-mk`
 
 ### Picom
 
@@ -62,4 +63,4 @@ Fonts: `nerd-fonts-complete` (AUR)
 
 `vim`
 
-- Plugins: [vim-plug](https://github.com/junegunn/vim-plug)
+- Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
