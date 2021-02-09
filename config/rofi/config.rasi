@@ -1,8 +1,7 @@
 /*-*- mode: css; -*-*/
 
 configuration {
-  modi:       "window,run,drun,,ssh";
-  combi-modi: "window,drun,ssh";
+  theme: "nord";
 }
 
 /* vim:ft=css
