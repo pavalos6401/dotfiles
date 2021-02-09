@@ -34,7 +34,7 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Nodejs client: `nodejs-neovim` (AUR)
 - Clipboard: `xsel`, `xclip`, `xorg-clipboard`
 - Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
-- Vimtex: `zathura`, `texlive-most`
+- Vimtex: `zathura` (also `zathura-pdf-mupdf`), `texlive-most`
 - Remote support: `neovim-remote` (AUR)
 - Python linting: `python-pylint`, `autopep8`, `jedi-language-server`
 
