@@ -1,0 +1,8 @@
+/*-*- mode: css; -*-*/
+
+configuration {
+  modi:       "window,run,drun,,ssh";
+  combi-modi: "window,drun,ssh";
+}
+
+/* vim:ft=css
