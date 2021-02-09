@@ -34,10 +34,6 @@ bar_widgets = [
         **widget_defaults,
         **color_scheme,
     ),
-    widget.PulseVolume(
-        **widget_defaults,
-        **color_scheme,
-    ),
     widget.Clock(
         **widget_defaults,
         **color_scheme,
