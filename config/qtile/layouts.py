@@ -15,7 +15,7 @@ layouts = [
     layout.Tile(**layout_defaults, expand=False),
     layout.Stack(**layout_defaults, num_stacks=2),
     layout.TreeTab(**tree_tab_defaults),
-    layout.Floating(floating_layout_defaults),
+    layout.Floating(**floating_layout_defaults),
     # layout.Zoomy(**layout_defaults),
     # layout.Bsp(**layout_defaults),
     # layout.Columns(**layout_defaults),
