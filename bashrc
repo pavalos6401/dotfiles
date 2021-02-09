@@ -3,9 +3,9 @@
 #
 
 export TERM="xterm-kitty"
-export EDITOR="/usr/bin/vim"
-export SUDO_EDITOR=$EDITOR
-export VISUAL=$EDITOR
+export EDITOR="/usr/bin/nvim"
+export SUDO_EDITOR="/usr/bin/vim"
+export VISUAL="/usr/bin/emacs"
 
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
@@ -37,11 +37,17 @@ alias fgrep="fgrep --color=auto"
 # pacman-related aliases
 alias pacref="sudo pacman -Syy"                # Refresh repos
 alias pacup="sudo pacman -Syu"                 # Update
-alias pacse="sudo pacman -Ss"                  # Search in repos
-alias pacif="sudo pacman -Si"                  # Get info on repo package
-alias pacin="sudo pacman -S --needed"          # Install from repos
+alias pacse="pacman -Ss"                       # Search in repos
+alias pacif="pacman -Si"                       # Get info on repo package
+alias pacin="pacman -S --needed"               # Install from repos
 alias pacrm="sudo pacman -Rs"                  # Remove a package
 alias paccl="sudo pacman -Rns $(pacman -Qtdq)" # Remove orphans
+# Shenanigans
+alias tuxsay="cowsay -f tux"
 
 # Other
 PS1='[\u@\h \W]\$ '
+
+# Start of prompt
+fortune | tuxsay
+echo
