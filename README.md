@@ -44,7 +44,7 @@ Fonts: `nerd-fonts-complete` (AUR)
 
 - Background: `feh`
 - Fonts: `ttf-dejavu`, `ttf-liberation`
-- Menu: `menumaker`
+- Menu: `obmenu-generator` (AUR)
 
 ### Picom
 
