@@ -1,11 +1,17 @@
 #!/usr/bin/env python3
 
+#
+# ~/.config/qtile/hooks.py
+#
+
 from libqtile import hook
 import subprocess
+
 
 @hook.subscribe.startup_once
 def autostart():
     subprocess.call(["/home/pavalos/.config/qtile/scripts/autostart.sh"])
+
 
 @hook.subscribe.client_new
 def float_firefox(window):
@@ -13,6 +19,7 @@ def float_firefox(window):
     w_name = window.window.get_name()
     if wm_class == ("Places", "firefox") and w_name == "Library":
         window.floating = True
+
 
 @hook.subscribe.client_new
 def float_pycharm(window):
@@ -29,6 +36,7 @@ def float_pycharm(window):
         )
     ):
         window.floating = True
+
 
 @hook.subscribe.client_new
 def float_steam(window):

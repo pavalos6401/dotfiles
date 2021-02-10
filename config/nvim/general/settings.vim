@@ -1,3 +1,7 @@
+"
+" ~/.config/nvim/general/settings.vim
+"
+
 " Important
 let &t_ut='' " for kitty terminal
 

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#
+# ~/.config/qtile/themes/spaceduck.py
+#
+
 wall_dir = '/home/pavalos/Pictures/wallpapers/spacecity.png'
 
 def_font = 'Fira Sans'              # Default font

@@ -1,3 +1,8 @@
+"
+" 
+" ~/.vimrc
+"
+
 " Plugins
 source $HOME/.vim/init/plug.vim
 source $HOME/.vim/init/plugins.vim

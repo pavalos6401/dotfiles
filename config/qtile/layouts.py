@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#
+# ~/.config/qtile/layouts.py
+#
+
 from libqtile import layout
 from themes.nord import layout_defaults, tree_tab_defaults
 

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#
+# ~/.config/qtile/themes/dracula.py
+#
+
 wall_dir = ''
 
 def_font = 'Fira Sans'           # Default font

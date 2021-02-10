@@ -1,5 +1,9 @@
 #!/usr/bin/perl
 
+#
+# ~/.config/obmenu-generator/schema.pl
+#
+
 # obmenu-generator - schema file
 
 =for comment

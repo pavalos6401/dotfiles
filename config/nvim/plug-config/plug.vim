@@ -1,3 +1,7 @@
+"
+" ~/.config/nvim/plug-config/plug.vim
+"
+
 " Check if vim-plug is installed
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
   silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs

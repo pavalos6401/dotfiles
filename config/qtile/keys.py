@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#
+# ~/.config/qtile/keys.py
+#
+
 from libqtile.config import Click, Drag, Key, Match
 from libqtile.lazy import lazy
 from libqtile.xkeysyms import keysyms
@@ -18,44 +22,44 @@ class KeysHolder:
 
         # Common keys
         self.ENTER = self.RETURN = 'Return'
-        self.TAB   = 'Tab'
+        self.TAB = 'Tab'
         self.SPACE = 'space'
         # Uncommon keys
-        self.EXCLAM   = self.EXCLAMATION = 'exclam'
+        self.EXCLAM = self.EXCLAMATION = 'exclam'
         self.QUOTEDBL = 'quotedbl'
         # Common mod keys
-        self.ALT   = self.MOD1 = 'mod1'
+        self.ALT = self.MOD1 = 'mod1'
         self.SUPER = self.MOD4 = 'mod4'
-        self.CTRL  = self.CONTROL = 'control'
+        self.CTRL = self.CONTROL = 'control'
         self.SHIFT = 'shift'
         # Uncommon mod keys
         self.HYPER = self.MOD3 = 'mod3'
         # Special keys
-        self.PRINT  = 'Print'
+        self.PRINT = 'Print'
         self.DELETE = 'Delete'
-        self.HOME   = 'Home'
-        self.END    = 'End'
+        self.HOME = 'Home'
+        self.END = 'End'
         # Audio keys
-        self.AUD_NEXT = self.AUDIO_NEXT      = 'XF86AudioNext'
-        self.AUD_PREV = self.AUDIO_PREV      = 'XF86AudioPrev'
-        self.AUD_PLAY = self.AUDIO_PLAY      = 'XF86AudioPlay'
-        self.AUD_STOP = self.AUDIO_STOP      = 'XF86AudioStop'
-        self.VOL_UP   = self.AUDIO_RAISE_VOL = 'XF86AudioRaiseVolume'
+        self.AUD_NEXT = self.AUDIO_NEXT = 'XF86AudioNext'
+        self.AUD_PREV = self.AUDIO_PREV = 'XF86AudioPrev'
+        self.AUD_PLAY = self.AUDIO_PLAY = 'XF86AudioPlay'
+        self.AUD_STOP = self.AUDIO_STOP = 'XF86AudioStop'
+        self.VOL_UP = self.AUDIO_RAISE_VOL = 'XF86AudioRaiseVolume'
         self.VOL_DOWN = self.AUDIO_LOWER_VOL = 'XF86AudioLowerVolume'
-        self.MUTE     = self.AUDIO_MUTE      = 'XF86AudioMute'
+        self.MUTE = self.AUDIO_MUTE = 'XF86AudioMute'
 
 
 # Easier to use mouse callbacks
 class MouseButtons:
-    LEFT        = BUTTON1 = 'Button1'
-    MIDDLE      = BUTTON2 = 'Button2'
-    RIGHT       = BUTTON3 = 'Button3'
-    WHEEL_UP    = BUTTON4 = 'Button4'
-    WHEEL_DOWN  = BUTTON5 = 'Button5'
-    WHEEL_LEFT  = BUTTON6 = 'Button6'
+    LEFT = BUTTON1 = 'Button1'
+    MIDDLE = BUTTON2 = 'Button2'
+    RIGHT = BUTTON3 = 'Button3'
+    WHEEL_UP = BUTTON4 = 'Button4'
+    WHEEL_DOWN = BUTTON5 = 'Button5'
+    WHEEL_LEFT = BUTTON6 = 'Button6'
     WHEEL_RIGHT = BUTTON7 = 'Button7'
-    PREV        = BUTTON8 = 'Button8'
-    NEXT        = BUTTON9 = 'Button9'
+    PREV = BUTTON8 = 'Button8'
+    NEXT = BUTTON9 = 'Button9'
 
 
 # Default apps

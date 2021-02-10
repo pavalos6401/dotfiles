@@ -1,3 +1,7 @@
+"
+" ~/.vim/init/settings.vim
+"
+
 " Important
 set nocompatible
 let &t_ut='' " for kitty

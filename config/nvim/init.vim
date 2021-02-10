@@ -1,3 +1,7 @@
+"
+" ~/.config/nvim/init.vim
+"
+
 " Plugins
 source $HOME/.config/nvim/plug-config/plug.vim
 source $HOME/.config/nvim/plug-config/coc.vim

@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#
+# ~/.config/qtile/themes/nord.py
+#
+
 wall_dir = '/home/pavalos/Pictures/wallpapers/archlinux.png'
 
 def_font = 'Source Sans Pro'           # Default font

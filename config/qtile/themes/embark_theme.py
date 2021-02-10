@@ -1,5 +1,9 @@
 #!/usr/bin/env python3
 
+#
+# ~/.config/qtile/themes/embark_theme.py
+#
+
 wall_dir = '/home/pavalos/Pictures/wallpapers/magic-forest.jpg'
 
 def_font = 'Fira Sans'               # Default font

@@ -1,3 +1,7 @@
+"
+" ~/.config/nvim/plug-config/nerdcommenter.vim
+"
+
 filetype plugin on
 
 " Create default mappings

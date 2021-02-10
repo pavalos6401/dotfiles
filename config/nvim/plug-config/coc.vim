@@ -1,3 +1,7 @@
+"
+" ~/.config/nvim/plug-config/coc.vim
+"
+
 " TextEdit might fail if hidden is not set.
 set hidden
 
