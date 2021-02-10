@@ -20,6 +20,13 @@ in other distributions.
 [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
 - `emacs`, `git`, `ripgrep`, `fd`
+- lang cc: `glslang`, `cmake`, `clang`, `llvm`
+- lang common-lisp: `sbcl`
+- lang haskell: `hlint`, `cabal-install`
+- lang json: `jq`
+- lang python: `python-pipenv`, `python-nose`, `python-pytest`
+- lang rust: `rust`, `rust-racer`
+- lang sh: `shellcheck`
 
 ### GTK
 
@@ -44,7 +51,7 @@ Fonts: `nerd-fonts-complete` (AUR)
 - Nodejs client: `nodejs-neovim` (AUR)
 - Clipboard: `xsel`, `xclip`, `xorg-clipboard`
 - Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
-- VimTeX: `zathura` (also `zathura-pdf-mupdf`), `texlive-most`
+- VimTeX: `zathura` (also `zathura-pdf-mupdf`), `texlive-most`, `biber`
 - Remote support: `neovim-remote` (AUR)
 - Python linting: `python-pylint`, `autopep8`, `jedi-language-server`
 
