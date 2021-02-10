@@ -19,7 +19,7 @@ in other distributions.
 
 [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
-- `ripgrep`, `fd`
+- `emacs`, `git`, `ripgrep`, `fd`
 
 ### GTK
 
