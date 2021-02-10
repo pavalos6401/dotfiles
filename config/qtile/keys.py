@@ -116,7 +116,7 @@ keys = [
     # Resize window or increase number in master (tile)
     Key([k.SUPER], 'm', lazy.layout.maximize(),
         desc='Toggle between min and max sizes'),
-    Key([k.SUPER, k.SHIFT], 'm', lazy.layout.toggle_fullscreen(),
+    Key([k.SUPER, k.SHIFT], 'm', lazy.window.toggle_fullscreen(),
         desc='Toggle fulscreen'),
     Key([k.SUPER, k.CTRL], 'k', lazy.layout.grow(),
         lazy.layout.increase_nmaster(),
