@@ -15,7 +15,7 @@ in other distributions.
 
 `bpytop`
 
-## Doom Emacs
+### Doom Emacs
 
 [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
