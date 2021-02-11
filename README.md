@@ -4,18 +4,18 @@
 
 - Keep my configurations portable.
 - Keep my configurations readable.
-- Keep my configurations reprodible.
+- Keep my configurations reproducible.
 - Keep my configurations public.
 
 ## About
 
-This repository contains the dotfiles (configuration files) for my linux
-installs. Although this can work with any linux distribution, the configuration
+This repository contains the dotfiles (configuration files) for my Linux
+installs. Although this can work with any Linux distribution, the configuration
 was made mostly with Arch Linux in mind.
 
 ## Requirements
 
-All required packages are Arch Linux packages, they might be named differentlly
+All required packages are Arch Linux packages, they might be named differently
 in other distributions.
 
 ### Separate readme
@@ -24,10 +24,13 @@ in other distributions.
 - [Doom Emacs](./doom.d/README.md)
 - [GTK](./config/gtk-3.0/README.md)
 - [Kitty](./config/kitty/README.md)
+- [Neofetch](./config/neofetch/README.md)
 - [Neovim](./config/nvim/README.md)
+- [Obmenu-generator](./config/obmenu-generator/README.md)
 - [Openbox](./config/openbox/README.md)
 - [Picom](./config/picom/README.md)
 - [Qtile](./config/qtile/README.md)
+- [Qutebrowser](./config/qutebrowser/README.md)
 - [Ranger](./config/ranger/README.md)
 - [Rofi](./config/rofi/README.md)
 - [Tint2](./config/tint2/README.md)
