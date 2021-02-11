@@ -97,3 +97,8 @@ Fonts: `nerd-fonts-complete` (AUR)
 `vim`
 
 - Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
+
+### XMonad
+
+`xmonad`, `xmonad-contrib`, `xmobar`, `dmenu` (optionally `xterm`)
+
