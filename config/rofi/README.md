@@ -1,3 +1,5 @@
 # Rofi Config
 
-![screenshot](./screenshot.png)
+## Requirements
+
+`rofi`

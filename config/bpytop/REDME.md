@@ -1,0 +1,5 @@
+# Bpytop Config
+
+## Requirements
+
+`bpytop`

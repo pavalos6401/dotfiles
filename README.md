@@ -1,104 +1,42 @@
 # dotfiles
 
+## About
+
+This repository contains the dotfiles (configuration files) for my linux installs.
+Although this can work with any linux distribution, the configuration was made
+mostly with Arch Linux in mind.
+
 ## Requirements
 
 All required packages are Arch Linux packages, they might be named differentlly
 in other distributions.
 
+### Separate readme
+
+- [Bpytop](./config/bpytop/README.md)
+- [Doom Emacs](./doom.d/README.md)
+- [GTK](./config/gtk-3.0/README.md)
+- [Kitty](./config/kitty/README.md)
+- [Neovim](./config/nvim/README.md)
+- [Openbox](./config/openbox/README.md)
+- [Picom](./config/picom/README.md)
+- [Qtile](./config/qtile/README.md)
+- [Ranger](./config/ranger/README.md)
+- [Rofi](./config/rofi/README.md)
+- [Tint2](./config/tint2/README.md)
+- [Vim](./vim/README.md)
+- [XMonad](./xmonad/README.md)
+
 ### Bash
 
+`bash`
+
 - Editor: `vim`, `nvim`, `emacs`
-- Shenanigans: `cowsay`, `fortune-mod`
+- Shenanigans: `cowsay`, `fortune-mod`, `neofetch`
 - Optional: `bash-completion` 
-
-### Bpytop
-
-`bpytop`
-
-### Doom Emacs
-
-[Doom Emacs](https://github.com/hlissner/doom-emacs)
-
-- `emacs`, `git`, `ripgrep`, `fd`
-- lang cc: `glslang`, `cmake`, `clang`, `llvm`
-- lang common-lisp: `sbcl`
-- lang haskell: `hlint`, `cabal-install`
-- lang json: `jq`
-- lang python: `python-pipenv`, `python-nose`, `python-pytest`
-- lang rust: `rust`, `rust-racer`
-- lang sh: `shellcheck`
-
-### GTK
-
-`gtk3` (optionally `gtk2` too)
-
-- Icons: `papirus-icon-theme`
-- Theme: [Nordic](https://github.com/EliverLara/Nordic)
-- Font: `adobe-source-sans-pro-fonts`
-
-### Kitty
-
-`kitty`
-
-Fonts: `nerd-fonts-complete` (AUR)
-
-### Neovim
-
-`neovim`
-
-- Python client: `python-pynvim`
-- Ruby bindings: `ruby-neovim` (AUR)
-- Nodejs client: `nodejs-neovim` (AUR)
-- Clipboard: `xsel`, `xclip`, `xorg-clipboard`
-- Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
-- VimTeX: `zathura` (also `zathura-pdf-mupdf`), `texlive-most`, `biber`
-- Remote support: `neovim-remote` (AUR)
-- Python linting: `python-pylint`, `autopep8`, `jedi-language-server`
-
-### Openbox and Tint2
-
-`openbox`, `tint2`
-
-- Background: `feh`
-- Fonts: `ttf-dejavu`, `ttf-liberation`
-- Menu: `obmenu-generator` (AUR)
-- Terminal: `kitty`
-- Compositor: `picom`
-
-### Picom
-
-`picom`
-
-### Qtile
-
-`qtile`
-
-- Fonts: `adobe-source-code-pro-fonts`, `nerd-fonts-complete` (AUR)
-- Screenshots: `maim`, `xclip`
-- Browser: `firefox`
-- Terminal: `kitty`
-- Compositor: `picom`
-- Volume control: `pamixer`
-- Screen information: `python-xlib`
-- Applets: `network-manager-applet`, `pasystray`, `redshift`
-
-### Ranger
-
-`ranger`
-
-- Image preview: `kitty`, `python-pillow`
 
 ### Redshift
 
 `redshift`
 
-### Vim
-
-`vim`
-
-- Plugins manager: [vim-plug](https://github.com/junegunn/vim-plug)
-
-### XMonad
-
-`xmonad`, `xmonad-contrib`, `xmobar`, `dmenu` (optionally `xterm`)
-
+Configuration is manually set to Chicago; I had some issues with `geoclue`
