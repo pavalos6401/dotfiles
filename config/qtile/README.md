@@ -1,5 +1,10 @@
 # Qtile Config
 
+## About
+
+My qtile config is split across various python files, to ease with readibility
+and with configurability.
+
 ![screenshot](./screenshot.png)
 
 ## Requirements
@@ -14,11 +19,6 @@
 - Volume control: `pamixer`
 - Screen information: `python-xlib`
 - Applets: `network-manager-applet`, `pasystray`, `redshift`
-
-## Description
-
-My qtile config is split across various python files, to ease with readibility
-and with configurability.
 
 ## TODO
 
