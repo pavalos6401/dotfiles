@@ -5,7 +5,7 @@
 `xmonad`, `monad-contrib`, `xmobar`
 
 - Launcher: `dmenu`
-- Terminal: `xterm`?
+- Terminal: `kitty`
 
 ## TODO
 
