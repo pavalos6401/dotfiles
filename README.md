@@ -54,4 +54,4 @@ surroundings". See the official
 
 Package: `redshift`
 
-Configuration is manually set to Chicago; I had some issues with `geoclue`
+Configuration is manually set to Chicago; I had some issues with `geoclue2`
