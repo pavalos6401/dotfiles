@@ -19,6 +19,7 @@ Package: `qtile`
 - Screenshots: `maim`, `xclip`
 - Browser: `firefox`
 - Terminal: `kitty`
+- Launcher: `rofi`
 - Compositor: `picom`
 - Volume control: `pamixer`
 - Screen information: `python-xlib`

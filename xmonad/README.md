@@ -8,7 +8,7 @@ information.
 
 ## Requirements
 
-Packages: `xmonad`, `monad-contrib`, `xmobar`
+Packages: `xmonad`, `xmonad-contrib`, `xmobar`
 
 - Launcher: `dmenu`
 - Terminal: `kitty`
