@@ -12,7 +12,7 @@ information.
 
 ## Requirements
 
-Packages: `emacs`, `git`, `ripgrep`, `fd`
+Packages: `emacs`, `git`, `ripgrep`, `fd`  
 Doom Emacs: [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
 - lang cc: `glslang`, `cmake`, `clang`, `llvm`
