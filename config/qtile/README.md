@@ -2,6 +2,10 @@
 
 ## About
 
+Qtile is a "full-featured, hackable tiling window manager written and configured
+in Python". See the official [GitHub repository](https://github.com/qtile/qtile)
+for more info.
+
 My qtile config is split across various python files, to ease with readibility
 and with configurability.
 
@@ -9,7 +13,7 @@ and with configurability.
 
 ## Requirements
 
-`qtile`
+Package: `qtile`
 
 - Fonts: `adobe-source-code-pro-fonts`, `nerd-fonts-complete` (AUR)
 - Screenshots: `maim`, `xclip`

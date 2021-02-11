@@ -1,10 +1,17 @@
 # dotfiles
 
+## Goals
+
+- Keep my configurations portable.
+- Keep my configurations readable.
+- Keep my configurations reprodible.
+- Keep my configurations public.
+
 ## About
 
-This repository contains the dotfiles (configuration files) for my linux installs.
-Although this can work with any linux distribution, the configuration was made
-mostly with Arch Linux in mind.
+This repository contains the dotfiles (configuration files) for my linux
+installs. Although this can work with any linux distribution, the configuration
+was made mostly with Arch Linux in mind.
 
 ## Requirements
 
@@ -29,7 +36,11 @@ in other distributions.
 
 ### Bash
 
-`bash`
+Bash offers "functional improvements over sh for both programming and
+interactive use". See the official [website](https://www.gnu.org/software/bash)
+for more information.
+
+Package: `bash`
 
 - Editor: `vim`, `nvim`, `emacs`
 - Shenanigans: `cowsay`, `fortune-mod`, `neofetch`
@@ -37,6 +48,10 @@ in other distributions.
 
 ### Redshift
 
-`redshift`
+Redshift "adjusts the color temperature of your screen according to your
+surroundings". See the official
+[GitHub repository](https://github.com/jonls/redshift) for more information.
+
+Package: `redshift`
 
 Configuration is manually set to Chicago; I had some issues with `geoclue`

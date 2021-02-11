@@ -1,8 +1,14 @@
 # XMonad Config
 
+## About
+
+XMonad is "A small but functional ICCCM-compliant tiling window manager". See
+the offical [GitHub repository](https://github.com/xmonad/xmonad) for more
+information.
+
 ## Requirements
 
-`xmonad`, `monad-contrib`, `xmobar`
+Packages: `xmonad`, `monad-contrib`, `xmobar`
 
 - Launcher: `dmenu`
 - Terminal: `kitty`
