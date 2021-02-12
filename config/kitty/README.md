@@ -11,3 +11,8 @@ information.
 Package: `kitty`
 
 - Fonts: `nerd-fonts-complete` (AUR)
+
+## Installation
+
+1. Install requirements.
+2. Copy, or symlink, `kitty.conf` and `themes/` to `~/.config/kitty/`
