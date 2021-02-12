@@ -3,9 +3,16 @@
 ## Goals
 
 - Keep my configurations portable.
+  - I want to be able to be able to install this wherever I am, so I am maintaining it on GitHub.
 - Keep my configurations readable.
+  - I want to be able to read my code and understand it
+  - I want to have good documentation on the required packages.
 - Keep my configurations reproducible.
+  - I want to be able to consistently install my dotfiles even if I reinstall my OS.
 - Keep my configurations public.
+  - I learned a thing or two from other repositories, so others might learn something.
+  - Others might contribute or provide suggestions that I might improve.
+  
 
 ## About
 
