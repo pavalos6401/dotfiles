@@ -19,7 +19,7 @@ matches_rule = {
              Match(wm_class=["skype"])],
     'mus': [Match(wm_class=["spotify"])],
     'vid': [Match(wm_class=["vlc"])],
-    'gam': [Match(wm_class=["steam"]), Match(wm_class=["lutris"]),
+    'gam': [Match(wm_class=["Steam"]), Match(wm_class=["lutris"]),
             Match(wm_class=["supertuxkart"]), Match(wm_class=["xonotic-sdl"])],
     'sys': [],
     'vm': [Match(wm_class=["virt-manager"]), Match(wm_class=["remote-viewer"])],
