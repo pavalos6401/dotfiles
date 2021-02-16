@@ -67,6 +67,7 @@ class DefaultApps:
     TERM = 'kitty'
     WEB = 'firefox'
     LAUNCHER = 'rofi -show drun'
+    EMACS = 'emacs'
 
 
 k = KeysHolder()    # Holder for key buttons
@@ -74,7 +75,7 @@ m = MouseButtons()  # Holder for mouse buttons
 a = DefaultApps()   # Holder for default apps
 
 # Directories for useful shortcuts
-scripts = '/home/pavalos/.config/qtile/scripts'
+SCRIPTS = '/home/pavalos/.config/qtile/scripts'
 
 
 # Bring all floating windows to the top
@@ -143,13 +144,14 @@ keys = [
     Key([k.SUPER], 'r', lazy.spawn(a.LAUNCHER), desc='Open default launcher'),
     Key([k.SUPER], k.ENTER, lazy.spawn(a.TERM), desc='Open default terminal'),
     Key([k.SUPER], 'b', lazy.spawn(a.WEB), desc='Open default browser'),
+    Key([k.SUPER], 'e', lazy.spawn(a.EMACS), desc='Open emacs'),
 
     # Screenshots
-    Key([], k.PRINT, lazy.spawn(f"'{scripts}/select-shot-clip.sh'"),
+    Key([], k.PRINT, lazy.spawn(f"'{SCRIPTS}/select-shot-clip.sh'"),
         desc='Clip selected area screenshot'),
-    Key([k.SUPER], k.PRINT, lazy.spawn(f"'{scripts}/select-shot.sh'"),
+    Key([k.SUPER], k.PRINT, lazy.spawn(f"'{SCRIPTS}/select-shot.sh'"),
         desc='Save selected area screenshot'),
-    Key([k.SUPER, k.SHIFT], k.PRINT, lazy.spawn(f"'{scripts}/full-shot.sh'"),
+    Key([k.SUPER, k.SHIFT], k.PRINT, lazy.spawn(f"'{SCRIPTS}/full-shot.sh'"),
         desc='Save fullscreen screenshot'),
 
     # Volume controls
