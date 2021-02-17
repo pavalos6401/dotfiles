@@ -9,6 +9,5 @@ Tint2 is "a lightweight panel/taskbar for Linux and BSD". See the official
 
 Package: `tint2`
 
-## TODO
-
-- Edit default config
+- App Launchers: `firefox`, `emacs`, `kitty`
+- Launcher: `rofi`

@@ -17,9 +17,6 @@ Package: `openbox`
 - Terminal: `kitty`
 - Browser: `firefox`
 - Compositor: `picom`
-
-## TODO
-
-- Edit tint2 configs
-- Edit autostart
-  - Add background
+- Launcher: `rofi`
+- System tray: `network-manager-applet`, `pasystray`, `redshift`
+- Theme: [nord-openbox-theme](https://gitlab.com/the-zero885/nord-openbox-theme)
