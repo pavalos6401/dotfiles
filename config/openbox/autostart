@@ -19,3 +19,4 @@ tint2 &
 redshift-gtk &
 nm-applet &
 pasystray &
+feh --bg-scale ~/Pictures/wallpapers/archlinux.png &
