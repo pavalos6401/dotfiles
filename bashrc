@@ -2,7 +2,6 @@
 # ~/.bashrc
 #
 
-export TERM="xterm-kitty"
 export EDITOR="/usr/bin/nvim"
 export SUDO_EDITOR="/usr/bin/vim"
 export VISUAL="/usr/bin/emacs"
