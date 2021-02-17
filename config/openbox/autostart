@@ -16,3 +16,6 @@
 
 picom &
 tint2 &
+redshift-gtk &
+nm-applet &
+pasystray &
