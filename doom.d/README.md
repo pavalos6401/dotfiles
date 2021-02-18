@@ -15,6 +15,7 @@ information.
 Packages: `emacs`, `git`, `ripgrep`, `fd`  
 Doom Emacs: [Doom Emacs](https://github.com/hlissner/doom-emacs)
 
+- spelling: `aspell`, `aspell-en`
 - lang cc: `glslang`, `cmake`, `clang`, `llvm`
 - lang common-lisp: `sbcl`
 - lang haskell: `hling`, `cabal-install`
