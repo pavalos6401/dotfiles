@@ -6,6 +6,10 @@ export EDITOR="/usr/bin/nvim"
 export SUDO_EDITOR="/usr/bin/vim"
 export VISUAL="/usr/bin/emacs"
 
+# manpager
+export MANPAGER="sh -c 'col -bx | bat -l man -p'"
+# export MANPAGER="nvim -c 'set ft=man' -"
+
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 

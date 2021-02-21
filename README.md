@@ -53,6 +53,7 @@ for more information.
 Package: `bash`
 
 - Editor: `vim`, `nvim`, `emacs`
+- Manpager: `bat`
 - Shenanigans: `cowsay`, `fortune-mod`, `neofetch`
 - Optional: `bash-completion` 
 
